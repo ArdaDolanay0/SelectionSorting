@@ -84,6 +84,7 @@ public class SelectionSort {
         }
        
         
+        System.out.println(newSorting.Swaps()+" swaps"); //displays all the swaps;
         System.out.println(newSorting.comparisons() + " comparisons"); //prints out the number of comparisons that the sorting method took in order to sort
     }
 }
